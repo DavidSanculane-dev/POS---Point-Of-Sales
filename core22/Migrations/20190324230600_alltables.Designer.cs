@@ -11,7 +11,7 @@ namespace core22.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20190324230600_alltables")]
-    partial class alltables
+    partial class Alltables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

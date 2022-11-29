@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNet.Identity.EntityFramework;
 using core22.Models.POS.Models;
+using System;
 
 namespace core22.Data
 {
@@ -23,5 +21,25 @@ namespace core22.Data
         public DbSet<core22.Models.POS.Models.PurchaseOrderLine> PurchaseOrderLine { get; set; }
         public DbSet<core22.Models.POS.Models.SalesOrderLine> SalesOrderLine { get; set; }
         public DbSet<core22.Models.POS.Models.GoodsReceiveLine> GoodsReceiveLine { get; set; }
+
+        internal void Add(InvenTran invenTran)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void Add(Vendor vendor)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void Update(InvenTran invenTran)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void Update(Vendor vendor)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

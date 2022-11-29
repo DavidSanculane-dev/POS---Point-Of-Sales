@@ -1,10 +1,11 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
+using static System.Data.Entity.Migrations.Model.UpdateDatabaseOperation;
 
 namespace core22.Migrations
 {
-    public partial class alltables : Migration
+    public partial class Alltables : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
